@@ -72,13 +72,14 @@
 //ZADATAK BR 14
 
 n = Number(prompt('Unesite broj ucenika!'));
+visina = [];
 minVisina = 0;
 maxVisina = 0;
 for (i=0; i<n; i++) {
-    visina = Number(prompt('Unesite visinu ucenika u centrimetrima'));
-    console.log(visina);
-
+    visina[i] = Number(prompt('Unesite visinu ucenika u centrimetrima'));   
 }
-
-minVisina = Math.min(visina);
-console.log(minVisina);
+console.log(visina);
+minVisina = Math.min(...visina);
+maxVisina = Math.max(...visina);
+console.log('Najnizi u razredu ima', minVisina,'cm');
+console.log('Najvisi u razredu ima', maxVisina,'cm');
