@@ -1,3 +1,5 @@
+
+
 // niz = [
 //     [1, 2, 3],
 //     [4, 5, 6],
@@ -52,4 +54,5 @@ for (let i = 0; i < niz.length; i++) {
         }
     }
     console.log(red);
+
 }

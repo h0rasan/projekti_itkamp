@@ -16,7 +16,7 @@
 // };
 
 
-while (true) {
-    operacija = prompt('Unesite operaciju');
-    if (operacija === 'exit' ||)
-}
+// while (true) {
+//     operacija = prompt('Unesite operaciju');
+//     if (operacija === 'exit' ||);
+// }

@@ -1,13 +1,13 @@
-// niz = [2, 3, 4, 5, 6, 7, 7, 8, 8, 9, 10, 11, 8, 8, 8];
-// newArr = []
+niz = [2, 3, 4, 5, 6, 7, 7, 8, 8, 9, 10, 11, 8, 8, 8];
+newArr = []
 
-// for (element of niz) {
-//     if (!newArr.includes(element)) {
-//         newArr.push(element);
-//     }
-// }
+for (element of niz) {
+    if (!newArr.includes(element)) {
+        newArr.push(element);
+    }
+}
 
-// console.log(newArr);
+console.log(newArr);
 
 
 ////////////////////////////////////////////////////////////////
